@@ -55,9 +55,16 @@ a:hover {
   color: white
 }
 
-header {
+header.main {
   text-align: center;
   background: url('images/sanfran.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header.contact {
+  text-align: center;
+  background: url('images/landsend.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
